@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import styles from './Header.module.css';
+import styles from './Header.m.css';
 import marvelLogo from '../../assets/marvel-logo.png';
 
 const Header = ({ title }) => {
