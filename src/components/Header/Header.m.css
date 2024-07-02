@@ -1,0 +1,41 @@
+.header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 30px 600px;
+    color: #fff;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-right: 800px;
+}
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navLink:hover {
+    color: #f00707;
+    transform: scale(1.1); 
+}
